@@ -1,0 +1,98 @@
+{
+  "run_id": "ATLAS-RUN-20260712T140717Z",
+  "input_count": 7,
+  "active_codes": [
+    "ATLAS-WORK-0001",
+    "ATLAS-WORK-0018"
+  ],
+  "read_only_passed": true,
+  "snapshot_hash_before": "94a10d353243592d7f9ee2025054373dafac6cf6f2125c1ce4443a3e7e586272",
+  "snapshot_hash_after": "94a10d353243592d7f9ee2025054373dafac6cf6f2125c1ce4443a3e7e586272",
+  "findings": [
+    {
+      "rule_id": "R-005",
+      "severity": "Critical",
+      "code": "ATLAS-WORK-0001",
+      "title": "آمادگی امتحان MBA مدیریت استراتژی",
+      "message": "ریسک فراموش‌شدن بسیار بالا است.",
+      "recommendation": "در Critical Attention نمایش داده شود.",
+      "related_codes": []
+    },
+    {
+      "rule_id": "R-002B",
+      "severity": "High",
+      "code": "ATLAS-WORK-0003",
+      "title": "تثبیت مرکز فرمان ATLAS",
+      "message": "رکورد مهم در صف بدون مالک است.",
+      "recommendation": "در بازبینی هفتگی مالک یا تصمیم توقف تعیین شود.",
+      "related_codes": []
+    },
+    {
+      "rule_id": "R-003",
+      "severity": "High",
+      "code": "ATLAS-WORK-0003",
+      "title": "تثبیت مرکز فرمان ATLAS",
+      "message": "فعل اجرایی مشخص در اقدام بعدی شناسایی نشد.",
+      "recommendation": "اقدام بعدی با فعل اجرایی، خروجی، مرجع و شرط پایان بازنویسی شود.",
+      "related_codes": []
+    },
+    {
+      "rule_id": "R-005B",
+      "severity": "High",
+      "code": "ATLAS-WORK-0003",
+      "title": "تثبیت مرکز فرمان ATLAS",
+      "message": "ریسک فراموش‌شدن بالا است.",
+      "recommendation": "در بازبینی هفتگی نمایش داده شود.",
+      "related_codes": []
+    },
+    {
+      "rule_id": "R-005B",
+      "severity": "High",
+      "code": "ATLAS-WORK-0011",
+      "title": "تکمیل Opvise Service Delivery Model",
+      "message": "ریسک فراموش‌شدن بالا است.",
+      "recommendation": "در بازبینی هفتگی نمایش داده شود.",
+      "related_codes": []
+    },
+    {
+      "rule_id": "R-005B",
+      "severity": "High",
+      "code": "ATLAS-WORK-0012",
+      "title": "طراحی Department Service Matrix برای Opvise",
+      "message": "ریسک فراموش‌شدن بالا است.",
+      "recommendation": "در بازبینی هفتگی نمایش داده شود.",
+      "related_codes": []
+    },
+    {
+      "rule_id": "R-005B",
+      "severity": "High",
+      "code": "ATLAS-WORK-0013",
+      "title": "طراحی Service Catalogue رسمی Opvise",
+      "message": "ریسک فراموش‌شدن بالا است.",
+      "recommendation": "در بازبینی هفتگی نمایش داده شود.",
+      "related_codes": []
+    },
+    {
+      "rule_id": "R-005B",
+      "severity": "High",
+      "code": "ATLAS-WORK-0018",
+      "title": "Discovery معماری ایجنت‌های ساخت و کنترل Playbookهای ATLAS",
+      "message": "ریسک فراموش‌شدن بالا است.",
+      "recommendation": "در بازبینی هفتگی نمایش داده شود.",
+      "related_codes": []
+    },
+    {
+      "rule_id": "R-006",
+      "severity": "High",
+      "code": "CLUSTER",
+      "title": "خوشه احتمالی دوباره‌کاری",
+      "message": "خوشه مشابهت شناسایی شد: تکمیل Opvise Service Delivery Model | طراحی Department Service Matrix برای Opvise | طراحی Service Catalogue رسمی Opvise",
+      "recommendation": "فقط پیشنهاد تجمیع منطقی ثبت شود؛ حذف یا ادغام خودکار ممنوع است.",
+      "related_codes": [
+        "ATLAS-WORK-0011",
+        "ATLAS-WORK-0012",
+        "ATLAS-WORK-0013"
+      ]
+    }
+  ]
+}

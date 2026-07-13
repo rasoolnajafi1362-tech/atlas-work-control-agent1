@@ -1,0 +1,100 @@
+[
+  {
+    "code": "ATLAS-WORK-0001",
+    "title": "آمادگی امتحان MBA مدیریت استراتژی",
+    "area": "MBA",
+    "priority": "P0 — فوری و حیاتی",
+    "status": "Active",
+    "owners": [
+      "رسول نجفی"
+    ],
+    "next_action": "ثبت تاریخ امتحان، ساعت امتحان، منابع کامل درسنامه‌ها و زمان آزاد روزانه.",
+    "expected_output": "برنامه اجرایی مطالعه MBA مدیریت استراتژی.",
+    "forgetting_risk": "بسیار بالا",
+    "rework_risk": "متوسط",
+    "control_note": "تنها فعالیت P0.",
+    "url": "https://app.notion.com/1d1fc656447847ca8c22d619fd549496"
+  },
+  {
+    "code": "ATLAS-WORK-0003",
+    "title": "تثبیت مرکز فرمان ATLAS",
+    "area": "ATLAS Core",
+    "priority": "P1 — کنترل پروژه",
+    "status": "Waiting",
+    "owners": [],
+    "next_action": "تبدیل مرکز فرمان ATLAS به رجیستر کنترل واقعی شامل کار باز، مالک، وضعیت و اقدام بعدی.",
+    "expected_output": "مرکز فرمان به نقطه کنترل روزانه و هفتگی تبدیل شود.",
+    "forgetting_risk": "بالا",
+    "rework_risk": "بالا"
+  },
+  {
+    "code": "ATLAS-WORK-0006",
+    "title": "کنترل SCOR-REF-MAP-0001",
+    "area": "SCOR",
+    "priority": "P3 — توسعه آینده",
+    "status": "Paused",
+    "owners": [],
+    "next_action": "اعتبارسنجی مستقیم هویت، مجوز، فرایند، Metrics، Skills و Practices با منابع رسمی ASCM.",
+    "expected_output": "تصمیم کنترل‌شده درباره ادامه یا توقف SCOR.",
+    "prerequisite": "پایان تمرکز P0 روی MBA و تأیید ادامه SCOR.",
+    "parking_reason": "توسعه SCOR تا تصمیم بعدی فعال نمی‌شود.",
+    "forgetting_risk": "متوسط",
+    "rework_risk": "بالا"
+  },
+  {
+    "code": "ATLAS-WORK-0011",
+    "title": "تکمیل Opvise Service Delivery Model",
+    "area": "Opvise Partners",
+    "priority": "P3 — توسعه آینده",
+    "status": "Parking Lot",
+    "owners": [],
+    "next_action": "پس از فعال‌سازی، مدل تحویل خدمت Opvise را از Operating Model استخراج و نسخه v0.1 را تعریف کن.",
+    "expected_output": "مدل تحویل خدمات Opvise.",
+    "parking_reason": "فعلاً خارج از WIP.",
+    "forgetting_risk": "بالا",
+    "rework_risk": "بالا"
+  },
+  {
+    "code": "ATLAS-WORK-0012",
+    "title": "طراحی Department Service Matrix برای Opvise",
+    "area": "Opvise Partners",
+    "priority": "P3 — توسعه آینده",
+    "status": "Parking Lot",
+    "owners": [],
+    "next_action": "پس از فعال‌سازی، ماتریس خدمات Opvise را بر اساس واحدهای سازمانی استخراج کن.",
+    "expected_output": "ماتریس خدمات واحدهای Opvise.",
+    "parking_reason": "فعلاً خارج از WIP.",
+    "forgetting_risk": "بالا",
+    "rework_risk": "بالا"
+  },
+  {
+    "code": "ATLAS-WORK-0013",
+    "title": "طراحی Service Catalogue رسمی Opvise",
+    "area": "Opvise Partners",
+    "priority": "P3 — توسعه آینده",
+    "status": "Parking Lot",
+    "owners": [],
+    "next_action": "پس از فعال‌سازی، فهرست خدمات Opvise را از Capability Notes استخراج و یکتا کن.",
+    "expected_output": "کاتالوگ رسمی خدمات Opvise.",
+    "parking_reason": "فعلاً خارج از WIP.",
+    "forgetting_risk": "بالا",
+    "rework_risk": "بالا"
+  },
+  {
+    "code": "ATLAS-WORK-0018",
+    "title": "Discovery معماری ایجنت‌های ساخت و کنترل Playbookهای ATLAS",
+    "area": "Agents & Automations",
+    "priority": "P1 — کنترل پروژه",
+    "status": "Active",
+    "owners": [
+      "رسول نجفی"
+    ],
+    "next_action": "ساخت Prototype فقط‌خواندنی بر اساس Rule Set v0.1 و اجرای تست‌های 001 تا 010.",
+    "expected_output": "Prototype Read-only همراه Focus Brief و Run Log.",
+    "prerequisite": "ATLAS-WORK ایجاد شده و دامنه MVP اولیه تعریف شده است.",
+    "forgetting_risk": "بالا",
+    "rework_risk": "بالا",
+    "control_note": "ATLAS-WORK ایجاد شده است. هیچ Write خودکار مجاز نیست.",
+    "url": "https://app.notion.com/f4f191b976bd4dbdbef1839c72cfdc33"
+  }
+]

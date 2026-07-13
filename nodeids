@@ -1,0 +1,12 @@
+[
+  "tests/test_rules.py::test_001_two_active_is_allowed",
+  "tests/test_rules.py::test_002_third_active_is_critical",
+  "tests/test_rules.py::test_003_active_without_owner",
+  "tests/test_rules.py::test_004_waiting_without_owner_high",
+  "tests/test_rules.py::test_005_specific_next_action_is_valid",
+  "tests/test_rules.py::test_006_vague_next_action_is_rejected",
+  "tests/test_rules.py::test_007_very_high_forgetting_risk_is_critical",
+  "tests/test_rules.py::test_008_opvise_similarity_cluster_is_detected",
+  "tests/test_rules.py::test_009_activation_with_unmet_prerequisite_is_blocked",
+  "tests/test_rules.py::test_010_engine_is_read_only_and_brief_is_generated"
+]
